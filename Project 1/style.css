@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* Importing font form that URL */
+/* ye star ak wildcard ha ye har role pa apply karega jo iske ander define honge*/
+*
+{
+    /* For marigin and padding equal */
+    box-sizing: border-box;
+
+}
+/* Calling body tag into CSS for styling */
+body
+{
+
+    background-color: #ecf0f1;
+    /* phala open sans apply karega nhy tu sans-sherif */
+    font-family: 'Open Sans', sans-serif;
+    /* flex for giving display flexibility */
+    /* For horizontal height ajustment */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* For Vertical Height adjustment */
+   /* 100vh browser ki screen ko 100 rows ma break kardeta ha */
+    min-height: 100vh;
+    /* body kay under sa margin hatadete hain */
+    margin: 0;
+}
+/* kisi class ko style karne kay lea .container lekhein*/
+/* koy sa bhi element jiska class container ha osko style karega */
+.container
+{
+background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,10);
+/* px means pixel */
+    width :400px;
+}
+h2
+{
+text-align: center;
+margin: 0 0 20px;
+
+}
+
+.form
+{
+      padding: 30px 40px
+      
+
+    }
+
+.form-control
+{
+
+margin-bottom: 10px;
+padding-bottom: 20px;
+/* error message ki position change karne kay lea */
+position: relative;
+
+}
+/* form-control kay under label ki styling kay lea */
+.form-control label
+{
+    color: #777;
+    /* block sab line ma lane ka lea */
+    display: block;
+ 
+    margin-bottom: 5px;
+}
+
+.form-control input
+{
+    /* Input wale box ki modification kay lea  */
+    border: 2px solid #ecf0f1;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding : 10px;
+    font-size: 14px;
+
+}
+
+.form-control input:focus{
+    /*  */
+    outline: 0;
+    border-color: #777; 
+        
+}
+
+
