@@ -5,10 +5,15 @@
     <title>Learning HTML</title>
 </head>
 <body>
-    <h1>Practising HTML</h1>
-                 <p>This is the paragraph for main heading</p>
+    <h1 id="oper_jao">Practising HTML</h1>
+                 <ol>
+                     <li><a href="#Structure">Chapter 1 => Structure</a></li>
+                     <li><a href="#Text">Chapter 2 => Text</a></li>
+                     <li><a href="#List">Chapter 3 => Lists</a></li>
+                     <li><a href="#Links">Chapter 4 = >Links</a></li>
+                 </ol>
                  
-        <h2>This sub-heading</h2>
+        <h2 id="Structure">Structure</h2>
                 <p>This is the paragraph for sub-heading</p>
             
             <h4>This is paragraph with BOLD words</h4>
@@ -33,7 +38,7 @@
                 <p>Mango is <i>Delicious</i> fruit</p>
 
 
-          <h2>Using semantic markup</h2>
+        <h2 id="Text">Text: Using semantic markup</h2>
 
                 <h4>Strong=></h4>
                     <p><strong>Beware:</strong> Wild animals exist here</p>
@@ -73,7 +78,7 @@
                     <p><s>Was $995</s></p>
                     <p>Now only $375</p>
            
-            <h2>List</h2>        
+        <h2 id="List">List</h2>        
    
                 <h4>Ordered List</h4>
                     <ol>
@@ -122,12 +127,12 @@
                             </ul>    
                     </ol>
 
-            <h2>Links</h2>
+            <h2 id="Links">Links</h2>
                 
                 <h4>Absolute URL</h4>
                     <p>Social Media Platform In use</p>
                         <OL>
-                            <li><a href="https://www.facebook.com">Facebook</a></li>
+                            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
                             <li><a href="https://www.gmail.com">Gmail</a></li>
                             <li><a href="https://www.linkedin.com">Linkedin</a></li>
                             <li><a href="https://www.instagram.com">Instagram</a></li>
@@ -135,10 +140,18 @@
                 
                 <h4>Relative URL</h4>
                     <ul>
-                        <li><a Href="index2.html">2nd Page</a></li>
-                        <li><a href="Currency/index3.html"></a>Currency Rates</li>
-                        <h1>I dont care</h1>
+                        <li><a Href="index2.html">2nd Page</a></li>  
                     </ul>
 
+                <h4>Link To New Tab</h4>
+                    <ul>
+                    <li><a href="index2.html" target="_blank">New Tab</a></li>
+                    <li><a href="https://www.harvard.edu" target="_blank">Harvard</a></li>
+                    </ul>    
+                
+                <h4>Linking to Top of the Page</h4>
+                    <p><a href="#oper_jao">top</a></p>                
 </body>
+
 </html>
+ 
