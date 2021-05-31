@@ -10,9 +10,10 @@
                      <li><a href="#Structure">Chapter 1 => Structure</a></li>
                      <li><a href="#Text">Chapter 2 => Text</a></li>
                      <li><a href="#List">Chapter 3 => Lists</a></li>
-                     <li><a href="#Links">Chapter 4 =>Links</a></li>
+                     <li><a href="#Links">Chapter 4 => Links</a></li>
                      <li><a href="#Images">Chapter 5 => Images</a></li>
-                 </ol>
+                     <li><a href="#Table">Chapter 6 => Tables</a></li>
+                </ol>
                  
         <h2 id="Structure">Structure</h2>
                 <p>This is the paragraph for sub-heading</p>
@@ -165,12 +166,118 @@
                         <img src="images/bald-eagle-1246480-1919x1267.jpg" alt="Eagle Picture" title="African Eagle"
                         width="450" height="300">
                         <figcaption>This is Female eagle</figcaption>
-                        
-
                     </figure>
                     
+        <h2 id="Table">Tables</h2> 
+                    <Table border="2">
+                        <tr>
+                            <th scope="col">No</th>
+                            <th>Fruits</th>
+                            <th>Colour</th>
+                            <th scope="col">Price/kg</th>
+                        </tr>
 
-</body>
+                        <tr>
+                            <td>1</td>
+                            <td>Apple</td>
+                            <td>Green</td>
+                            <td>100</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Mango</td>
+                            <td>Yellow</td>
+                            <td>300</td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>Banana</td>
+                            <td>Yellow</td>
+                            <td>80</td>
+                        </tr>
+                    </Table>
+
+                <h4>Using Colspan Attribute</h4>
+                    <table border="2">
+                        <tr>
+                            <td></td>
+                            <th>9am</th>
+                            <th scope="col">10am</th>
+                            <th scope="col">11am</th>
+                            <th scope="col">12am</th>
+                            <th scope="col">1pm</th>
+                        </tr>
+                        <tr>
+                            <th>Monday</th>
+                            <td colspan="2">Mathematics</td>
+                            <td colspan="2">Programming</td>
+                            <td>Relax</td>
+                        </tr>
+                        <tr>
+                            <th>Tuesday</th>
+                            <td colspan="3">Gym</td>
+                            <td colspan="2">Party</td>
+                        </tr>
+                    </table>
+
+                <h4>Using Rowspan Attribute</h4>
+                    <table border="2">
+                        <tr>
+                            <th></th>
+                            <th>Ary News</th>
+                            <th>Hum News</th>
+                            <th>Bol News</th>
+                        </tr>
+                        <tr>
+                            <th>9am-10am</th>
+                            <td rowspan="2">Morning Show</td>
+                            <td>Information Show</td>
+                            <td>Tic Tok Show</td>
+                        </tr>
+                        <tr>
+                            <th>10am-11am</th>
+                            <td>Sports</td>
+                            <td>News</td>
+                        </tr>
+                    </table>
+
+                <h4>Using Thead element altogether with tbody element and tfoot element</h4>
+                    <table border="">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Income</th>
+                                <th>Expenditures</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1st</td>
+                                <td>250</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>2nd</td>
+                                <td>500</td>
+                                <td>50</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td></td>
+                                <td>8000</td>
+                                <td>3500</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+
+
+
+        <h3><a href="#oper_jao">Top</a></h3>
+    </body>
 
 </html>
  
