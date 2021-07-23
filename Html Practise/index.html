@@ -13,6 +13,7 @@
                      <li><a href="#Links">Chapter 4 => Links</a></li>
                      <li><a href="#Images">Chapter 5 => Images</a></li>
                      <li><a href="#Table">Chapter 6 => Tables</a></li>
+                     <li><a href="#Form">Chapter 7 => Forms</a></li>
                 </ol>
                  
         <h2 id="Structure">Structure</h2>
@@ -272,8 +273,56 @@
                             </tr>
                         </tfoot>
                     </table>
+        <h2 id="Form">Forms</h2>
+                <h4>type=text and type=password</h4>
+                    <form action="www.google.com">
+                        <p>Username:
+                            <input type="text" name="Username" size="15" maxlength="10" />
+                        </p>
+                        <p>Password:
+                            <input type="password" name="Password" size="15" maxlength="10" />
+                        </p>
+                <h4>textarea</h4>
+                        <p>What do you think about build?</p>
+                        <textarea name="comments" cols="20" rows="4">Enter Your Comments...</textarea>
+                <h4>Radio Button</h4>
+                        <p>Please select your favourite manufacturer
+                        <input type="radio" name="manufacturer" value="Asus" checked="checked">Asus
+                        <input type="radio" name="manufacturer" value="Cougar">Cougar
+                        <input type="radio" name="manufacturer" value="Lianli">Lian Li           
+                        </p>
+                    
+                <h4>Checkbox</h4>
+                        <p>Please select the storage preference
+                            <input type="checkbox" name="storage" value="SSD">SSD
+                            <input type="checkbox" name="storage" value="HDD">HDD
+                            <input type="checkbox" name="storage" value="cloud">Cloud Storage
+                        </p>
 
+                <h4>Drop Down List</h4>
+                        <p>What do you prefer for gaming</p>
+                            <select name="devices">
+                                <option value="XBOX">XBOX</option>
+                                <option value="PS5">PS5</option>
+                                <option value="PC" selected="selected">PC</option>
+                                <option value="Laptop">Gaming Laptop</option>
+                            </select>
+                       
 
+                        <p>Do you play any of the following instruments?
+                            (You can select more than one option by holding
+                            down control on a PC or command key on a Mac
+                            while selecting different options.)</p>
+                            <select name="instruments" size="3"
+                            multiple="multiple">
+                            <option value="guitar" selected="selected">
+                            Guitar</option>
+                            <option value="drums">Drums</option>
+                            <option value="keyboard"
+                            selected="selected">Keyboard</option>
+                            <option value="bass">Bass</option>
+                            </select>
+                    </form>
 
 
         <h3><a href="#oper_jao">Top</a></h3>
