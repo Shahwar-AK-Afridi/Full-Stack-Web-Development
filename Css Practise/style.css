@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+    color: maroon;
+}
+
+h2 {
+    color: mediumaquamarine;
+}
+
+p {
+    color: #665544;
+}
+
+h1 {
+    font-family: "Courier New", monospace;
+    background-color: cornsilk;
+}
+
+i {
+    color: green;
+}
+
+i {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+b {
+    color: pink;
+}
+
+p b {
+    color: blue !important;
+}
+
+p b {
+    color: violet;
+}
+
+p#intro {
+    background-color: hsl(80, 100%, 50%);
+}
+
+p {
+    font: size 150%;
+}
+
+
+/**/
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #83ca10;
+    padding: 10px;
+}
+
+.page {
+    border: 1px solid #665544;
+    background-color: cornsilk;
+    padding: inherit;
+}
