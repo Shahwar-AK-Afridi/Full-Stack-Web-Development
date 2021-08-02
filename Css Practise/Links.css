@@ -1,0 +1,55 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 300%;
+}
+
+a:link {
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: seagreen;
+}
+
+a:active {
+    color: yellow;
+}
+
+input {
+    padding: 6px 12px 6px 12px;
+    border: 1px solid #665544;
+    color: black;
+}
+
+input.Nigga:hover {
+    background-color: seagreen;
+}
+
+input.submit:active {
+    background-color: chocolate;
+}
+
+input.text {
+    color: #cccccc;
+}
+
+input.text:focus {
+    color: #665544;
+}
+
+
+/*Dont know why the appearence of button is not changing*/
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200%;
+    font-style: italic;
+    color: tan;
+}
