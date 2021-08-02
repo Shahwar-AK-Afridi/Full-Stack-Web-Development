@@ -1,0 +1,74 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1,
+h2 {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.credits {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.credits {
+    font-weight: bold;
+}
+
+.credits {
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('fonts/chunkfive.eot');
+    src: url('fonts/chunkfive.eot?#iefix') format('embedded-opentype'), url('fonts/chunkfive.woff') format('woff'), url('fonts/chunkfive.ttf') format('truetype'), url('fonts/chunkfive.svg#ChunkFiveRegular') format('svg');
+}
+
+.jhonny {
+    font-weight: bold;
+}
+
+.credits {
+    font-style: italic;
+}
+
+.jhonny {
+    font-style: oblique;
+    text-indent: 50px;
+}
+
+.jhonny {
+    text-transform: uppercase;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.credits {
+    font-weight: bold;
+    word-spacing: 1em;
+}
+
+h1 {
+    text-align: left;
+}
+
+p {
+    text-align: justify;
+}
+
+.credits {
+    text-align: center;
+}
+
+p.intro:first-letter {
+    font-size: 500%;
+}
+
+p.intro:first-line {
+    font-weight: bold;
+}
