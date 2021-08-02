@@ -24,12 +24,16 @@
         <li><a href="#Images">Chapter 5 => Images</a></li>
         <li><a href="#Table">Chapter 6 => Tables</a></li>
         <li><a href="#Form">Chapter 7 => Forms</a></li>
+        <li><a href="#Html Validation">Chapter 8 => Html Validation</a></li>
+        <li><a href="#Extra">Chapter 9 => Extra Markup</a></li>
+        <li><a href="#Video">Chapter 10 => Adding Video & Audio</a></li>
     </ol>
 
-    <h2 id="Structure">Structure</h2>
+
+    <h2 id="Structure">Chapter 1 => Structure</h2>
     <p>This is the paragraph for sub-heading</p>
 
-    <h4>This is paragraph with BOLD words</h4>
+    <h4>BOLD words</h4>
     <p>We are using the element <b>Bold</b> in this paragraph</p>
     <b>Bold element can exist independently in body element</b>
 
@@ -52,7 +56,7 @@
     <p>Mango is <i>Delicious</i> fruit</p>
 
 
-    <h2 id="Text">Text: Using semantic markup</h2>
+    <h2 id="Text">Chapter 2 => Text: Using semantic markup</h2>
 
     <h4>Strong=></h4>
     <p><strong>Beware:</strong> Wild animals exist here</p>
@@ -63,8 +67,8 @@
 
     <h4>blockquote=></h4>
     <blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh">
-        <p>Did you ever stop to think, and forget to start
-            again?</p>
+        <p>Did you ever stop to think, and forget to start again?
+        </p>
     </blockquote>
     <p>As A.A. Milne said, <q>Some people talk to
             animals. Not many listen though. That's the
@@ -77,8 +81,8 @@
     <P><acronym title="National Aeronautics and Space Administration">NASA</acronym> is bitch.</P>
 
     <h4>Citation=></h4>
-    <p><cite>A Brief History of Time</cite> by Stephen Hawking has sold over ten million copies
-        worldwide.</p>
+    <p><cite>A Brief History of Time</cite> by Stephen Hawking has sold over ten million copies worldwide.
+    </p>
 
     <p>A <dfn>black hole</dfn> is a region of space from which nothing, not even light, can escape.</p>
 
@@ -93,7 +97,7 @@
     <p><s>Was $995</s></p>
     <p>Now only $375</p>
 
-    <h2 id="List">List</h2>
+    <h2 id="List">Chapter 3 => List</h2>
 
     <h4>Ordered List</h4>
     <ol>
@@ -119,11 +123,9 @@
             <li>
                 <dt>Software Testing</dt>
             </li>
-            <dd>It is where we compare the actual results with the expected results in-order to find defects
-                in software under Testing </dd>
+            <dd>It is where we compare the actual results with the expected results in-order to find defects in software under Testing </dd>
             <dt>Software Review</dt>
-            <dd>Its is a verification method where we show our artifacts to our friends or peers inorder to find defects
-                in the software under testing, for example: Walkthrough, buddy checking, review by circulation,
+            <dd>Its is a verification method where we show our artifacts to our friends or peers inorder to find defects in the software under testing, for example: Walkthrough, buddy checking, review by circulation,
             </dd>
         </dl>
     </ul>
@@ -144,7 +146,7 @@
         </ul>
     </ol>
 
-    <h2 id="Links">Links</h2>
+    <h2 id="Links">Chapter 4 => Links</h2>
 
     <h4>Absolute URL</h4>
     <p>Social Media Platform In use</p>
@@ -169,21 +171,19 @@
     <h4>Linking to Top of the Page</h4>
     <p><a href="#oper_jao">top</a></p>
 
-    <h2 id="Images">Images</h2>
-    <img src="images/natural-wonders-1400924.jpg" alt="Testing Image" title="Beach In PAKISTAN" width="450"
-        height="300">
+    <h2 id="Images">Chapter 5 =>Images</h2>
+    <img src="images/natural-wonders-1400924.jpg" alt="Testing Image" title="Beach In PAKISTAN" width="450" height="300">
 
     <h4>Using Figure element</h4>
     <figure>
         <img src="images/eagle-1523807-1598x1198.jpg" alt="Eagle Picture" title="Bald Eagle" width="450" height="300">
         <figcaption>Eagle in africa</figcaption>
 
-        <img src="images/bald-eagle-1246480-1919x1267.jpg" alt="Eagle Picture" title="African Eagle" width="450"
-            height="300">
+        <img src="images/bald-eagle-1246480-1919x1267.jpg" alt="Eagle Picture" title="African Eagle" width="450" height="300">
         <figcaption>This is Female eagle</figcaption>
     </figure>
 
-    <h2 id="Table">Tables</h2>
+    <h2 id="Table">Chapter 6 => Tables</h2>
     <Table border="2">
         <tr>
             <th scope="col">No</th>
@@ -287,7 +287,9 @@
             </tr>
         </tfoot>
     </table>
-    <h2 id="Form">Forms</h2>
+
+    <h2 id="Form">Chapter 7 => Forms</h2>
+
     <h4>type=text and type=password</h4>
     <form action="www.google.com">
         <label>Username:
@@ -323,10 +325,7 @@
         </select>
 
 
-        <p>Do you play any of the following instruments?
-            (You can select more than one option by holding
-            down control on a PC or command key on a Mac
-            while selecting different options.)</p>
+        <p>Do you play any of the following instruments? (You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)</p>
         <select name="instruments" size="3" multiple="multiple">
             <option value="guitar" selected="selected">
                 Guitar</option>
@@ -337,18 +336,18 @@
     </form>
 
     <form action="www.google.com" method="POST">
-        <p>Uploading file</p>
+        <h4>Uploading file</h4>
         <input type="file" name="user-song" />
         <input type="submit" name="submit" />
     </form>
 
     <form action="www.google.com" method="POST">
-        <P><b>Image as submit button</b></P>
+        <h4>Image as submit button</h4>
         <input type="image" src="Images/bald-eagle-1246480-1919x1267.jpg" width="100" height="100">
     </form>
 
     <form action="www.facebook.com" method="POST">
-        <p><b>Button with image is used</b></p>
+        <h4>Button with image is used</h4>
         <button><img src="Images/natural-wonders-1400924.jpg" alt="add" width="10" height="10" />Add</button>
         <input type="hidden" name="bookmark" value="lyrics">
     </form>
@@ -383,7 +382,7 @@
         <label>Address:<br><input type="text" name="address"></label><br>
     </fieldset>
 
-    <h4>Html Form Validation</h4>
+    <h2 id="Html Validation">Chapter 8 => Html Form Validation</h2>
 
     <form action="www.google.com" method="POST">
         <label>Date:<input type="date" name="date"></label>
@@ -443,7 +442,7 @@
         </p>
     </fieldset>
 
-    <h2>Extra Markup</h2>
+    <h2 id="Extra">Chapter 9 => Extra Markup</h2>
 
     <h4>Using div element</h4>
     <div id="header">
@@ -454,11 +453,11 @@
             <li><a href="works.html">Works</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-    </div><!-- end of header -->
+    </div>
+    <!-- end of header -->
 
     <h4>Using span element</h4>
-    <p>Anish Kapoor won the Turner Prize in 1991 and
-        exhibited at the <span class="gallery">Tate
+    <p>Anish Kapoor won the Turner Prize in 1991 and exhibited at the <span class="gallery">Tate
             Modern</span> gallery in London in 2003.</p>
 
     <h4>Using iframe element</h4>
@@ -467,7 +466,7 @@
                             &amp;output=embed">
     </iframe>
 
-    <h2>Adding html video element</h2>
+    <h2 id="Video">Chapter 10 => Adding html video element</h2>
 
     <video src="video/puppy.mp4" poster="images/puppy.jpg" width="400" height="300" preload controls loop>
         <p>A video of a puppy playing in the snow</p>
@@ -475,6 +474,7 @@
 
 
     <h3><a href="#oper_jao">Top</a></h3>
+
 </body>
 
 </html>
