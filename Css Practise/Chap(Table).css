@@ -1,98 +1,141 @@
-ol {
-    list-style-type: decimal;
-}
-
-ul {
-    list-style-type: square;
-}
-
-
-/*Images islea use nhy karpai qkay proper url available nhy tha*/
-
-#image {
-    list-style-type: upper-alpha;
-    font-size: 200%;
-}
-
-
-/*To increase the gap between the list*/
-
-li {
-    margin: 10px 0px 0px 0px;
-}
-
-#outside {
-    width: 300px;
-    list-style-position: outside;
-}
-
-#inside {
-    width: 300px;
-    list-style-position: inside;
-}
-
-ul.shorthand {
-    width: 150px;
-    list-style: inside decimal;
-}
-
-table.one {
-    border: 2px solid;
-    width: 50%;
-    padding: 50px;
-}
-
-th,
-td {
-    padding: 7px 10px 10px 10px;
-}
-
-th {
-    text-transform: capitalize;
-    text-decoration: underline;
-    letter-spacing: 0.1em;
-    background-color: wheat;
-    font-size: 130%;
-    border-top: 2px solid;
-}
-
-td {
-    text-transform: capitalize;
-    letter-spacing: 0.1em;
-    text-align: center;
-    border-top: 2px solid;
-}
-
-tr.even {
-    background-color: rgb(196, 191, 191);
-}
-
-td:hover {
-    background-color: gold;
-}
-
-.money {
-    text-align: right;
-}
-
-.empty {
-    border: 2px solid;
-}
-
-table.two {
-    margin: 60px;
-    empty-cells: hide;
-    border-collapse: separate;
-}
-
-table.Three {
-    background-color: #0088dd;
-    padding: 15px;
-    border: 2px solid #000000;
-    border-spacing: 50px 25px;
-}
-
-td.gap {
-    border: 2px solid;
-    font-size: 300%;
-}
+    ol {
+        list-style-type: decimal;
+    }
+    
+    ul {
+        list-style-type: square;
+    }
+    /*Images islea use nhy karpai qkay proper url available nhy tha*/
+    
+    #image {
+        list-style-type: upper-alpha;
+        font-size: 200%;
+    }
+    /*To increase the gap between the list*/
+    
+    li {
+        margin: 10px 0px 0px 0px;
+    }
+    
+    #outside {
+        width: 300px;
+        list-style-position: outside;
+    }
+    
+    #inside {
+        width: 300px;
+        list-style-position: inside;
+    }
+    
+    ul.shorthand {
+        width: 150px;
+        list-style: inside decimal;
+    }
+    
+    table.one {
+        border: 2px solid;
+        width: 50%;
+        padding: 50px;
+    }
+    
+    th,
+    td {
+        padding: 7px 10px 10px 10px;
+    }
+    
+    th {
+        text-transform: capitalize;
+        text-decoration: underline;
+        letter-spacing: 0.1em;
+        background-color: wheat;
+        font-size: 130%;
+        border-top: 2px solid;
+    }
+    
+    td {
+        text-transform: capitalize;
+        letter-spacing: 0.1em;
+        text-align: center;
+        border-top: 2px solid;
+    }
+    
+    tr.even {
+        background-color: rgb(196, 191, 191);
+    }
+    
+    td:hover {
+        background-color: gold;
+    }
+    
+    .money {
+        text-align: right;
+    }
+    
+    .empty {
+        border: 2px solid;
+    }
+    
+    table.two {
+        margin: 60px;
+        empty-cells: hide;
+        border-collapse: separate;
+    }
+    
+    table.Three {
+        background-color: #0088dd;
+        padding: 15px;
+        border: 2px solid #000000;
+        border-spacing: 50px 25px;
+    }
+    
+    td.gap {
+        border: 2px solid;
+        font-size: 300%;
+    }
+    
+    fieldset {
+        width: 350px;
+        border: 1px solid #dcdcdc;
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 120%;
+        font-style: oblique;
+        color: black;
+        background-color: wheat;
+        box-shadow: -5px 10px 10px 10px rgb(131, 126, 126);
+        margin: 10px auto 10px auto;
+    }
+    
+    legend {
+        background-color: #efefef;
+        border: 1px solid #dcdcdc;
+        border-radius: 10px;
+        padding: 20px 10px 20px 10px;
+        text-align: left;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    /*Submit ko style karne kaylea id attribute use karna hoga*/
+    
+    input#submit {
+        color: #444444;
+        text-shadow: 0px 1px 1px #ffffff;
+        border-bottom: 2px solid #b2b2b2;
+        border-radius: 10px;
+        background-color: #b9e4e3;
+    }
+    
+    input#submit:hover {
+        color: #333333;
+        border: 1px solid #a4a4a4;
+        border-top: 2px solid #b2b2b2;
+        background-color: #a0dbc4;
+    }
+    
+    input {
+        border-radius: 10px;
+    }
+    
+    textarea {
+        border-radius: 10px;
+    }
