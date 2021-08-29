@@ -10,6 +10,7 @@ h1 {
     border: 2px solid red;
     background-color: cornsilk;
     width: 500px;
+    margin-top: 50px;
 }
 
 h2 {
@@ -20,5 +21,49 @@ h2 {
 p {
     border: 2px solid yellow;
     width: 500px;
-    position: static;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    z-index: 10;
+}
+
+p.relative {
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+
+h2.Absolute {
+    position: absolute;
+    top: 400px;
+    left: 750px;
+    width: 250px;
+}
+
+h2.Fixed {
+    position: fixed;
+    top: 0px;
+    left: 50px;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    width: 50%;
+    background-color: #efefef;
+    text-align: center;
+    z-index: 5;
+}
+
+blockquote {
+    float: right;
+    width: 500px;
+    font-size: 130%;
+    font-style: italic;
+    font-family: Georgia, Times, serif;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+p.nigga {
+    width: 1100px;
 }
