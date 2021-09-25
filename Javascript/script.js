@@ -49,3 +49,40 @@ a = "apple";
 console.log(a);
 a = true;
 console.log(a);
+
+//Typeof Operator
+var banana = "Favourite";
+console.log(typeof banana);
+
+banana = 56;
+console.log(banana);
+
+//Semicolon is the end of statements,therefore we can 
+//add more than one statemnents at on a single line
+// Semicoln = new line. hence no need to add semicolon if you are changing line
+//however Semicolon increases code understandbility.
+var a = 5;
+var b = 6;
+var c = 0;
+c = a + b;
+console.log(c);
+
+//Legal and Illegal Variable name
+
+//Allowed
+var age = 56;
+var $age;
+var _age;
+var First_Name;
+var hello$World;
+
+//Not Allowed
+var 5 age;
+var hello£ world;
+var first name;
+
+//Comments
+
+/* Multi-Line Comment
+this is the example*/
+//Single Line comment
