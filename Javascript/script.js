@@ -77,12 +77,56 @@ var First_Name;
 var hello$World;
 
 //Not Allowed
-var 5 age;
+/*var 5 age;
 var hello£ world;
-var first name;
+var first name;*/
 
 //Comments
 
 /* Multi-Line Comment
 this is the example*/
 //Single Line comment
+
+//Reserved keyword wo hote hain jo hum as a variable name use nhy karsakte
+
+/*
+ var for = 5;
+  var if =6;
+  */
+
+//Increment and decrement operator
+
+var z = 5;
+z++; // z = z + 1
+console.log(z);
+var y = 10;
+y--; // y = y - 1
+console.log(y);
+
+//Pre-Increment (Phala increment ya decrement hoga phir update hoga)
+var w = 10; //w = 11
+var x = ++w; //w = 11
+console.log("w = " + w);
+console.log("x = " + x);
+
+var h = 15;
+var l = --h;
+console.log("h = " + h); //h = 14
+console.log("l = " + l); //l = 14
+
+//Post-Increment (Phala update hoga phir increment ya decrement hoga)
+var t = 5;
+var r = t++;
+console.log("t = " + t); //t = 6
+console.log("r = " + r); //r = 5
+
+var e = 10;
+var u = e--;
+console.log("e = " + e); //e = 9
+console.log("u = " + u); // u = 10
+
+//example
+var p = 6; //7  //6
+var j = 7; //6
+var g = ++p - --j + --p;
+console.log("g = " + g);
