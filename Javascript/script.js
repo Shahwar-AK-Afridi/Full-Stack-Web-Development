@@ -130,3 +130,11 @@ var p = 6; //7  //6
 var j = 7; //6
 var g = ++p - --j + --p;
 console.log("g = " + g);
+
+//example
+var q = 4;
+var m = 2;
+var n = q++ - m;
+alert(q); //5
+alert(m); //2
+alert(n); //2

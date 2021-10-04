@@ -1,62 +1,68 @@
-<!DOCTYPE html> 
-<!-- iisa browser uch samjhega, jase kay ye ak html doucument ha  -->
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
-    <!-- CSS file link to html file (Only in head) -->
-    <title>Form</title>
+    <title>Project 1: Login Form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
+
 <body>
+    <script src="script.js"></script>
+
+    <!--".classname" == use karke hum div banasakte hain with class-->
     <div class="container">
-         <!-- class is css styling and ID for javascript and Id must be unique-->
+
+        <!--"form#form.form" == ye shortcut use karke hum form tag
+     kay under id(for Javascript) and class(for CSS) assign karsakte hain-->
         <form action="" id="form" class="form">
-
-            <h2>Sign Up</h2>
-            <!-- Class name is form-control -->
+            <h2>Sign up</h2>
             <div class="form-control">
-                  <!-- Label ko input sa link karnay kae lea id use hote ha, -->
-                <label for="Username">Username</label>
-                <!-- username kay sath input dene kay lea ko box chaya hota ha  -->
-                <input type="text" id="Username" placeholder="Enter Username">
-                <!-- For Error Messages -->
-                
+                <label for="username">Username</label>
+
+                <!--"input#idname = idher input kay tag open hoga with id"-->
+                <input type="text" id="username" placeholder="Enter Username">
+                <small>Error Message</small>
+
             </div>
             <div class="form-control">
-               
-              <label for="Email">Email</label>
-              
-              <input type="text" id="Email" placeholder="Enter Email">
+                <label for="email">Email</label>
 
-              
+                <!--"input#idname = idher input kay tag open hoga with id"-->
+                <input type="email" id="email" placeholder="Enter Email">
+                <small>Error Message</small>
+
             </div>
             <div class="form-control">
-           
-                <label for="Password">Password</label>
-          
-                 <input type="password" id="Password" placeholder="Enter Password">
-          
-                
+                <label for="password">Password</label>
+
+                <!--"input#idname = idher input kay tag open hoga with id"-->
+                <input type="password" id="password" placeholder="Enter Password">
+                <small>Error Message</small>
+
             </div>
             <div class="form-control">
-        
-                <label for="password2">Confirm Password</label>
-      
-                <input type="password" id="password2" placeholder="Enter Password Again">
-     
-                 
+                <label for="password2">Password</label>
+
+                <!--"input#idname = idher input kay tag open hoga with id"-->
+                <input type="password" id="password2" placeholder="Enter Password">
+                <small>Error Message</small>
+
             </div>
+            <button>Submit</button>
 
-
-                <Button>Submit</Button>   
         </form>
-    
-    </div> 
-    <Script src='script.js'></Script> 
-     <!-- javascript file link to html file(Only in Body) -->
+
+
+    </div>
+
+
+
+
+
 
 </body>
-</html>
 
+</html>
