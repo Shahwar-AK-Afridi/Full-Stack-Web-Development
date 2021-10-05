@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1AB7EA;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /*100vh ka mutlab kay browser ki screen ko 100 rows ma break kardeta ha*/
+    margin: 0px;
+}
+
+.container {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.3);
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    color: seagreen;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    border: 2px solid #1AB7EA;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-size: 12px;
+}
+
+
+/*input par sa black outline remove karne ka lea*/
+
+.form-control input:focus {
+    outline: 0;
+    border-color: sandybrown;
+    /*jab click karenge tu border ka color change hojaiga*/
+}
