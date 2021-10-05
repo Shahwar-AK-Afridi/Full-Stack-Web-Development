@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/*Agr hume bar bar ak cheez use karne pare tu hum osse variable ma daldete hain*/
+
+:root {
+    --success-color: green;
+    --error-color: orangered;
+    /*Two variable created*/
+}
+
 * {
     box-sizing: border-box;
 }
@@ -36,6 +45,9 @@ h2 {
     position: relative;
 }
 
+
+/*div jiski class "form-control ha" oske child element "label" ko select karo*/
+
 .form-control label {
     color: seagreen;
     display: block;
@@ -54,8 +66,45 @@ h2 {
 
 /*input par sa black outline remove karne ka lea*/
 
+
+/*This is called psedeoselector*/
+
 .form-control input:focus {
     outline: 0;
     border-color: sandybrown;
     /*jab click karenge tu border ka color change hojaiga*/
+}
+
+.form-control.success input {
+    border-color: var(--success-color);
+}
+
+.form-control.error input {
+    border-color: var(--error-color);
+}
+
+.form-control small {
+    color: var(--error-color);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    visibility: hidden;
+}
+
+
+/*Jab error hoge tabhi error message show hoga*/
+
+.form-control.error small {
+    visibility: visible;
+}
+
+.form button {
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: navy;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
 }
