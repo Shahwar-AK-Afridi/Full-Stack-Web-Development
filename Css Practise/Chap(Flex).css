@@ -1,0 +1,39 @@
+.flexbox-container {
+    height: 700px;
+    display: flex;
+    /*Flexbox container is now officially created*/
+    flex-wrap: wrap;
+    /*ye use karke hum oper neeche karsakte hain 
+    flexitems ko jab screen chote hoge*/
+    border: 3px solid red;
+    /*If we want to style our element on the main axis then we use justify-content property*/
+    justify-content: space-evenly;
+    /*If we want to style our elements on the cross axis then we use align-items property */
+    align-items: stretch;
+    /*by default align-item=stretch hota ha, mutlab kay flexitems stretch hote hain vertically
+    to fill most amount of space*/
+    align-items: center;
+    /*lekin agr hum apne flexitems ka size wo rakhna shate hain jo humne set kea the tu
+    phir align-items: flex-start/end use karen*/
+    align-content: space-between;
+    /*ye flexitems ki position ko set karta ha*/
+}
+
+.flexbox-item {
+    width: 200px;
+    border: 3px solid black;
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+}

@@ -1,0 +1,63 @@
+/*.flexbox-container {*
+    height: 800px;
+    display: flex;
+    border: 2px solid red;
+    flex-direction: column;
+    /*main-axis ab vertical hogaya ha*/
+
+
+/*flex-direction: row; main-axis ab horizontal hogaya ha*/
+
+
+/*justify-content: center;
+    /*qkay main-axis vertiacl ha tu layout ma changes bhi 
+    as per vertical ayenge*/
+
+
+/*align-items: center;
+    /*/
+
+*
+/*qkay cross-axis horizontal ha tu align-items 
+    cheezain horizontally manage karega*/
+
+.flexbox-container {
+    height: 800px;
+    display: flex;
+    border: 2px solid red;
+}
+
+.flexbox-item {
+    width: 200px;
+    border: 3px solid black;
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+    flex-shrink: 0;
+    /*Jab hum browser ko resize karenge 
+    tu flexbox1 ka size shrink nhy hoga*/
+    align-self: flex-end;
+    order: 3;
+    /*ye flex-items kay order ko change karne kaylea 
+    use hota ha without changing the html*/
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+    flex-grow: 2;
+    /*ye leftover space ko divide kardea ha bwtween 
+    all flex-grows */
+    align-self: center;
+    /*idher agr apko align-content ko override karna ha tu
+    align-self use karen*/
+    flex-basis: 0;
+    /*ye batata ha flexitem ko kay kider sa grow karna ha*/
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+    flex-grow: 1;
+}
