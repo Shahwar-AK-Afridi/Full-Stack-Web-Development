@@ -144,7 +144,7 @@ table {
 
 body {
     color: #888;
-    font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 300 16px/22px "Lato","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
@@ -177,9 +177,9 @@ Grid
 */
 
 h1,
+h2,
 h3,
 h4,
-h5,
 p {
     margin-bottom: 22px;
     color: #648880;
@@ -205,8 +205,9 @@ h4 {
 
 h5 {
     color: #a9b2b9;
-    font-size: px;
+    font-size: 14px;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 strong {
@@ -219,7 +220,8 @@ em {
 }
 
 .tagline {
-    margin: 66px 0 22px 0;
+    margin: 66px 0px 22px 0px;
+    text-align: right;
 }
 
 
@@ -229,13 +231,19 @@ em {
   ========================================
 */
 
+a {
+    color: #648880;
+    text-decoration: none;
+}
+
 a:hover {
     color: #a9b2b9;
 }
 
-a {
-    color: #648880;
+p a{
+    border-bottom: 1px solid black;
 }
+
 
 .teaser a:hover h3 {
     color: #a9b2b9;
@@ -244,6 +252,8 @@ a {
 .primary-nav {
     font-size: 14px;
     font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
 }
 
 
@@ -274,6 +284,7 @@ a {
 .hero {
     line-height: 44px;
     padding: 22px 80px 66px 80px;
+    text-align: center;
 }
 
 .hero h2 {
@@ -282,6 +293,7 @@ a {
 
 .hero p {
     font-size: 24px;
+    font-weight: 100;
 }
 
 
@@ -306,37 +318,23 @@ a {
     *zoom: 1;
 }
 
-.logo {
-    border-top: 4px solid #648880;
-    padding: 40px 0 22px 0;
-    float: left;
-    font-size: 48px;
-    line-height: 44px;
-}
-
-.primary-footer {
-    color: #648880;
-    font-size: 14px;
-    padding-bottom: 44px;
-    padding-top: 44px;
-}
-
-.primary-footer small {
-    float: left;
-    font-weight: 400;
-}
-
 .col-1-3 {
     width: 33.33%;
 }
 
-.col-1-3 {
+.col-2-3 {
+    width: 66.66%;
+}
+
+.col-1-3,
+.col-2-3 {
     display: inline-block;
     vertical-align: top;
 }
 
 .grid,
-.col-1-3 {
+.col-1-3,
+.col-2-3 {
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -351,3 +349,50 @@ a {
     padding-left: 30px;
     padding-right: 30px;
 }
+
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.logo {
+    border-top: 4px solid #648880;
+    padding: 40px 0 22px 0;
+    float: left;
+    font-size: 48px;
+    line-height: 44px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+}
+
+
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+
+.primary-footer {
+    color: #648880;
+    font-size: 14px;
+    padding-bottom: 44px;
+    padding-top: 44px;
+}
+
+.primary-footer small {
+    float: left;
+    font-weight: 400;
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.nav {
+    text-align: right;
+  }
