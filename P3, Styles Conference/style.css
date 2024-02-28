@@ -143,6 +143,7 @@ table {
 */
 
 body {
+    background-color: #293f50;
     color: #888;
     font: 300 16px/22px "Lato","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -265,13 +266,23 @@ p a{
 
 .btn {
     border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
     display: inline-block;
     margin: 0;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 
 .btn-alt {
     border: 1px solid #dfe2e5;
     padding: 10px 30px;
+}
+
+.btn-alt:hover{
+    background-color: #fff;
+    color:#648880;
 }
 
 
@@ -292,6 +303,7 @@ p a{
 }
 
 .hero p {
+    color: #fff;
     font-size: 24px;
     font-weight: 100;
 }
@@ -349,7 +361,17 @@ p a{
     padding-left: 30px;
     padding-right: 30px;
 }
+/*
+  ========================================
+  Rows
+  ========================================
+*/
 
+.row{
+    background: #fff;
+    min-width: 960px;
+    padding: 66px 0 44px 0;
+}
 
 /*
   ========================================
@@ -396,3 +418,13 @@ p a{
 .nav {
     text-align: right;
   }
+
+.primary-header a,
+.primary-footer a{
+    color: #fff;
+}
+
+.primary-header a:hover,
+.primary-footer a:hover {
+    color: #648880
+}
