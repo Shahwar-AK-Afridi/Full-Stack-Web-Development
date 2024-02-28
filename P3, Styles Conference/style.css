@@ -454,3 +454,7 @@ p a{
 .primary-footer a:hover {
     color: #648880
 }
+
+.logo2{
+    font-weight: 100;
+}
