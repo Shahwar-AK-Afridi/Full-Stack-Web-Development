@@ -146,6 +146,7 @@ body {
     background-color: #293f50;
     color: #888;
     font: 300 16px/22px "Lato","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
 }
 
 
@@ -445,6 +446,16 @@ p a{
     text-align: right;
   }
 
+.nav li{
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+}
+
+.nav li:last-child a{
+    margin-right: 0; 
+}
+
 .primary-header a,
 .primary-footer a{
     color: #fff;
@@ -453,5 +464,16 @@ p a{
 .primary-header a:hover,
 .primary-footer a:hover {
     color: #648880
+}
+
+.row{
+    background-color: #fff;
+    border: 2px solid black;
+    
+}
+
+.poop{
+    border: 2px solid black;
+
 }
 
