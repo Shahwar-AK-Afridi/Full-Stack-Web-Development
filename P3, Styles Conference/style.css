@@ -346,10 +346,12 @@ p a{
 
 .col-1-3 {
     width: 33.33%;
+
 }
 
 .col-2-3 {
     width: 66.66%;
+
 }
 
 .col-1-3,
@@ -363,6 +365,7 @@ p a{
 .col-2-3 {
     padding-left: 15px;
     padding-right: 15px;
+
 }
 
 .container,
@@ -450,9 +453,10 @@ p a{
     display: inline-block;
     margin: 0 10px;
     vertical-align: top;
+    /*list-style: none*/ /*Markers are removed either this way or using CSS resets*/
 }
 
-.nav li:last-child a{
+.nav li:last-child a{ /*we’ll use the :last-child pseudo-class selector to identify the last <li> element and reset its right margin to 0*/
     margin-right: 0; 
 }
 
@@ -466,14 +470,25 @@ p a{
     color: #648880
 }
 
-.row{
+.row{        /*to wrap all of our speakers and apply a white background and padding behind them*/
     background-color: #fff;
     border: 2px solid black;
-    
 }
 
-.poop{
-    border: 2px solid black;
+/*
+  ========================================
+  Speakers
+  ========================================
+*/
 
+.speaker-info{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 88px;
+    padding: 22px 0;
+    text-align: center;
 }
 
+.speaker{       /*As we add more and more speakers to the page, we’ll want to ensure that they remain an equal distance apart vertically*/
+    margin-bottom: 44px;
+}
